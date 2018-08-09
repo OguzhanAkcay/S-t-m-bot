@@ -5,7 +5,7 @@ const ayarlar = require('../ayarlar.json');
 const snekfetch = require('snekfetch');
 const api = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM1NDIzMTYzMDQwNTA0MjE3NiIsImJvdCI6dHJ1ZSwiaWF0IjoxNTE2Mjc0MTQ1fQ.2H9LjNjH6WFp5LmswfXAYSDsHQn2JSPPgbgf1WjSi_c';
 
-var prefix = ayarlar.prefix;
+var prefix = bot.prefix;
 
 module.exports = client => {
 	snekfetch.post(`https://discordbots.org/api/bots/${client.user.id}/stats`)
