@@ -5,8 +5,8 @@ exports.run = function(client, message) {
  
     const embed = new Discord.RichEmbed()
         .setDescription("**Harry Potter**")
-        .setImage("https://i.hizliresim.com/4z9QQJ.jpg")
-        .setThumbnail("https://i.hizliresim.com/4z9QQJ.jpg")
+        .setImage("https://vignette.wikia.nocookie.net/harrypotter/images/b/ba/Harry-Potter-1-.jpg/revision/latest?cb=20141106214135&path-prefix=zh")
+        .setThumbnail("https://vignette.wikia.nocookie.net/harrypotter/images/b/ba/Harry-Potter-1-.jpg/revision/latest?cb=20141106214135&path-prefix=zh")
         .setColor(0x00AE86)
         .addField("Lakabı", "Büyücü", true)
         .addField("Yetenekleri", `
