@@ -11,9 +11,9 @@ exports.run = function(client, message) {
         .addField("Lakabı", "Büyücü", true)
         .addField("Yetenekleri", `
         *Çatal Dil
-   * (Werebeaver)
+   * (ZihniFendır)
    `, true)
-   .addField("Motto", `That's nice tree, eh? (güzel ağaç, ha?)`, true)
+   .addField("Motto", `Expeliarmus!`, true)
    .addField("Hakkında", "Harry Potter ve Felsefe Taşı, J.K. Rowling'in aynı isimli kitabından sinemaya uyarlanmış 2001 yapımı fantastik film. Harry Potter serisinin ilk filmidir.")
    
 
@@ -30,5 +30,5 @@ exports.conf = {
 exports.help = {
    name: 'woodie', 
   description: 'Woodie the Lumberjack hakkında bilgi verir',
-  usage: 'woodie'
+  usage: 'potter'
 };
