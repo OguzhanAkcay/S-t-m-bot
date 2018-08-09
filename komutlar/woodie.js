@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'harry potter', 
-  description: 'Harry Pottter Hakkında Bilgi Verir',
-  usage: 'potter'
+   name: 'woodie', 
+  description: 'Woodie the Lumberjack hakkında bilgi verir',
+  usage: 'woodie'
 };
