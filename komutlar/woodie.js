@@ -4,17 +4,17 @@ const Discord = require('discord.js');
 exports.run = function(client, message) {
  
     const embed = new Discord.RichEmbed()
-        .setDescription("**WOODIE**")
-        .setImage("https://vignette.wikia.nocookie.net/dont-starve-game/images/2/23/Woodie.png/revision/latest/scale-to-width-down/350?cb=20140330212814")
-        .setThumbnail("https://vignette.wikia.nocookie.net/dont-starve-game/images/2/23/Woodie.png/revision/latest/scale-to-width-down/350?cb=20140330212814")
+        .setDescription("**Harry Potter**")
+        .setImage("https://tr.pinterest.com/pin/181199584986036149/")
+        .setThumbnail("https://tr.pinterest.com/pin/181199584986036149/")
         .setColor(0x00AE86)
-        .addField("Lakabı", "The Lumberjack (Oduncu)", true)
+        .addField("Lakabı", "Büyücü", true)
         .addField("Yetenekleri", `
-        *Çok güzel bir baltası var
-   *Korkunç bir sırrı var (Werebeaver)
+        *Çatal Dil
+   * (Werebeaver)
    `, true)
    .addField("Motto", `That's nice tree, eh? (güzel ağaç, ha?)`, true)
-   .addField("selam", "haha naber")
+   .addField("Hakkında", "Harry Potter ve Felsefe Taşı, J.K. Rowling'in aynı isimli kitabından sinemaya uyarlanmış 2001 yapımı fantastik film. Harry Potter serisinin ilk filmidir.")
    
 
    message.channel.send(embed)
@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'woodie', 
-  description: 'Woodie the Lumberjack hakkında bilgi verir',
-  usage: 'woodie'
+  name: 'harry potter', 
+  description: 'Harry Pottter Hakkında Bilgi Verir',
+  usage: 'potter'
 };
