@@ -9,6 +9,6 @@ module.exports = client => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar yüklendi!`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giriş yapıldı!`);
   client.user.setStatus("online");
-client.user.setGame("h!yardım | "" 7/24 "" aktif ", "https://www.twitch.tv/oguzhanbey123");
+ client.user.setGame(Games[random], "https://www.twitch.tv/cansuoztrk");
 
 }
