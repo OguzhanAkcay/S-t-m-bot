@@ -8,7 +8,6 @@ exports.run =  function (bot, message) {
     for (const guild of guilds) {
       embed.addField(`Server ismi: ${guild.name}`);
       embed.addField(`Server kurucusu: ${guild.owner.user.username}#${guild.owner.user.discriminator}`);
-      embed.addField(`Server ID: ${guild.id}`);
       embed.setColor('#00ffff')
       embed.setTitle('Servers')
       embed.setDescription(`Åu an ${bot.guilds.size} server de bulunuyorum`)
