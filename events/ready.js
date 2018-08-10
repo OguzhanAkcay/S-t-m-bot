@@ -11,3 +11,5 @@ module.exports = client => {
   client.user.setStatus("online");
 client.user.setGame("h!yardım | " + client.guilds.size + " Sunucu " + client.users.size + " Kullanıcı ", "https://twitch.tv/scarew0");
 }
+client.user.setGame("7/24 | " + client.guilds.size + " Aktif " + client.users.size + " Bot ", "https://twitch.tv/scarew0");
+}
